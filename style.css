@@ -1,0 +1,242 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+@font-face {
+    font-family: lato;
+    src: url(./Lato-Regular.ttf);
+}
+body{
+    color: #181A18;
+    font-family: lato, sans-serif,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.hero{
+    background-image: url(./images/rentprop.png);
+    background-repeat: no-repeat;
+    height: 800px;
+
+
+    background-size: cover;
+    background-position: center;
+    
+}
+header{
+    display: flex;
+    margin-top: 20px;
+}
+.image{
+    margin-right: auto;
+}
+.mobile-nav{
+    display: none;
+}
+.desktop >ul{
+    display: flex;
+    margin: 20px;
+}
+.desktop> ul> li{
+    margin-right: 20px;
+    list-style: none;
+
+}
+.desktop > ul> li > a{
+    text-decoration: none;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    width: 98vw;
+    }
+.text{
+    background-color: #FFFFFF;
+    border-radius: 0px 60px 60px 0px;
+    padding: 80px;
+    max-width:493px;
+    /* gap: 32px; */
+    }
+.text >h1{
+    font-weight: 600;
+    font-size: 52px;
+    margin-bottom: 20px;
+    line-height: 60px;
+    
+}
+.text>p{
+    color: #181A18;
+    font-size: 18px;
+    line-height: 24px;
+    }
+        
+.future{
+    display: flex;
+    max-width:1280px;
+    /* height: 378px; */
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+    background-color: #F2F0F2;
+    /* left: 80px; */
+}
+.imagecollection{
+    display: flex;
+    max-width: 800px;
+    flex-wrap: wrap;
+    margin-right: 40px;
+}
+.mage{
+    margin: 0px;
+    width: 50%;
+}
+.image1{
+    width: 100%;
+    margin: 0px;
+}
+.right{
+    max-width: 600px;
+    border-radius: 0px 60px 60px 0px;
+    padding: 100px 60px 100px 60px;
+}
+.right>h2{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 54px;
+}
+.right>p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 30px;
+}
+.features{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.desc{
+    max-width: 847px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+    text-align: center;
+}
+.desc >h2{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 54px;
+    margin-bottom: 20px;
+}
+.feature{
+    display: flex;
+    padding: 20px;
+    max-width: 1200px;
+}
+.flexible{
+    max-width: 305px;
+    background-color: #E2F1E8;
+    margin-right: 20px;
+    border-radius: 30px;
+    padding: 32px 40px 32px 40px;
+}
+.flexible >h4{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+.flexible >p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+}
+
+
+/* tablet screen */
+@media (max-width:768px){
+    .desktop{
+        display: none;
+    }
+    .mobile-nav{
+        display: revert;
+        margin-right: 7px;
+    }
+    body{
+        display: flex;
+    }
+   
+    .hero{
+        
+        /* width: 99vw; */
+        align-items: flex-start;
+        /* height: 900px; */
+    }
+    
+    
+    .desc{
+        width: 77vw;
+    }
+    header{
+        width: 100vw;
+    }
+    main{
+        width: 100vw;
+    }
+    .text{
+        width: 95vw;
+        margin: 0px;
+        padding: 32px;
+        border-radius: 0px 40px 40px 0px;
+    }
+    .text >h1{
+        font-size: 40px;
+        line-height: 46px;
+        font-weight: 700;
+        padding: 0px;
+    }
+    .hero{
+        background-position: center;
+        background-size: 900px 900px;
+        /* height: 900px; */
+    }
+
+    .future{
+        display: flex;
+        flex-direction: column;
+        width: 95vw;
+        margin: auto;
+    }
+    .imagecollection{
+        width: 100%;
+        align-items: center;
+    }
+    .right{
+        width: 95vw;
+        margin: 0px;
+    }
+    .desc{
+        width: 90vw;
+    }
+    .feature{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        margin-bottom: 30px;
+        align-items: center;
+    }
+    .flexible{
+        margin-bottom: 40px;
+    }
+
+}
+
+/* mobile screen */
+
+
+
+
