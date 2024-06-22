@@ -43,6 +43,11 @@ header{
 }
 .desktop > ul> li > a{
     text-decoration: none;
+    color:#181A18;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    
 }
 .hero{
     display: flex;
@@ -204,6 +209,7 @@ header{
         flex-direction: column;
         width: 95vw;
         margin: auto;
+        border-radius: 40px 30px 30px 30px;
     }
     .imagecollection{
         width: 100%;
@@ -298,7 +304,7 @@ header{
         border-radius: 40px 30px 30px 30px;
     }
     .flexible{
-        padding: 5px;
+        padding: 10px;
         /* height: 400px; */
     }
     .features{
