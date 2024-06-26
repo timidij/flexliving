@@ -76,11 +76,16 @@ header{
         
 .future{
     display: flex;
-    max-width:1280px;
+    /* max-width:1280px; */
+    width: 90%;
     align-content: center;
+    align-self: center;
+    margin: auto;
     /* border-radius: 60px 0px 0px 60px; */
     justify-content: center;
+    /* align-items: center; */
     background-color: #F2F0F2;
+    border-radius: 60px 30px 30px 60px;
 }
 .imagecollection{
     display: flex;
@@ -115,9 +120,9 @@ header{
     margin-top: 30px;
 }
 .features{
+    /* width: 80%; */
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     margin-top: 40px;
 }
@@ -138,18 +143,30 @@ header{
 .feature{
     display: flex;
     padding: 20px;
-    margin-top: 10px;
+    gap: 40px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
 }
 .flexible{
-    max-width: 210px;
+    width:200px;
     background-color: #E2F1E8;
     margin-right: 10px;
     border-radius: 30px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
     padding: 10px 20px 10px 20px;
 }
+.flexible>img{
+    width: 30px;
+}
 .flexible >h4{
+    margin-top: 10px;
+    margin-bottom: 10px;
     font-weight: 700;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     line-height: 32px;
 }
 .flexible >p{
@@ -232,15 +249,16 @@ header{
     }
     .feature{
         display: flex;
-        flex-direction: column;
-        width: 90vw;
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+        width: 90vw;justify-content: center;
         margin-bottom: 30px;
         align-items: center;
     }
     .flexible{
         margin-right: 0px;
         margin-bottom: 40px;
-        max-width: 300px;
+        width: 200px;
         font-size: 1.2rem;
         height: 200px;
         padding: 20px;
@@ -304,7 +322,8 @@ header{
         border-radius: 40px 30px 30px 30px;
     }
     .flexible{
-        padding: 10px;
+        padding: 20px;
+        width: 100%;
         /* height: 400px; */
     }
     .features{
